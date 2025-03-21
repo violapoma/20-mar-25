@@ -52,7 +52,7 @@ button.membership {
     border: 1px solid ;
 }
 
-.profile {
+.profileIcon {
     background-color: blueviolet;
     color: beige;
     font-weight: bold;
@@ -90,8 +90,6 @@ main {
     border-bottom: 1px solid grey ;
 }
 
-
-
 .article{
     display: flex;
     padding: 2.5em 0;
@@ -102,6 +100,10 @@ main {
     display: flex;
     flex-wrap: wrap;
     width: 70%;
+}
+
+.infos p {
+    padding: 1em 0;
 }
 .article h3 {
     font-size: 15px;
@@ -126,6 +128,7 @@ main {
     font-size: 12px;
     justify-content: space-evenly;
     align-items: center;
+    color: grey;
 }
 
 .when button{
@@ -156,7 +159,7 @@ main {
 /* ************************* SIDEBAR ********************* */
 .sidebar {
     width: 30%;
-    padding: 0 100px;
+    padding: 0 50px;
     border-left: 1px solid lightgrey ;
 
 }
@@ -198,22 +201,85 @@ main {
     margin: 4px 1px;
 }
 
-.whoToFollow {
+#whoToFollow {
     margin-top: 2em;
+    padding-bottom: 1em;
 }
 
+.profile {
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 0;
+}
 
+.profile .profilePicDiv {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.person{
+    width: 60%;
+}
 
+.person h3{
+    font-size: 25px;
+}
+.person h4 {
+    font-weight: 100;
+    color: gray;
+    margin-top: 8px;
+    font-size: 17px;
+}
 
+.followBtn {
+    font-size: 18px;
+    padding: 0.5em;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid gray;
+}
 
+#recentlySaved {
+    margin-top: 2em;
+    padding-bottom: 1em;
+}
 
+#recentlySaved .article {
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 
+#recentlySaved h2 {
+    font-size: 20px;
+}
 
+#recentlySaved .when {
+    padding-top: 10px;
+    justify-content: flex-start;
+    font-size: 15px;
+}
 
+#recentlySaved .when span {
+    padding-right: 1em;
+}
+ #recentlySaved a {
+    display: block;
+    color: rgb(60, 183, 36);
+    font-size: 18px;
+    margin-top: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
 
-
-
-
+ footer {
+    font-size: 18px;
+    color: grey;
+ }
+ footer span {
+    padding-right: 2em;
+ }
 
 
 
@@ -240,4 +306,7 @@ main {
 
 /* .sidebar {
     border: 1px solid pink;
+}
+#recentlySaved {
+    border: 1px solid purple;
 } */
