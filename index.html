@@ -20,7 +20,10 @@
                 <button class="iconsDivBtn"><i class="fa-regular fa-bookmark"></i></button>
                 <button class="iconsDivBtn"><i class="fa-regular fa-bell"></i></button>
                 <button class="membership">Resume Membership</button>
-                <button class="profileIcon">V</button>
+                <!-- <button class="profileIcon">V</button> -->
+                <div class="profilePicDiv">
+                    <button class="profilePicBtn"><img class="profilePic" src="/assets/myIcon.png" alt="profile"></button>
+                </div>
             </div>
         </header>
 
@@ -32,85 +35,155 @@
                     <h2>FOLLOWING</h2>
                     <h2>RECOMMENDED FOR YOU</h2>
                 </div>
-                <div class="articles">
-
-
+                <div id="articles">
                     <div class="article">
-                        <div class="infos">
-                            <div class="profilePicDiv">
-                                <img class="profilePic" src="/assets/yoruichi.jpg" alt="profilePicture" width="736px" height="1308">
+                        <div class="infos">  
+                            <div class="infoAuthor">
+                                <div class="profilePicDiv">
+                                    <button class="profilePicBtn"><img class="profilePic" src="/assets/yoruichi.jpg" alt="profilePicture" width="736px" height="1308"></button>
+                                </div>
+                                <h3><a href="#">Kolby Sisk</a> in <a href="#">Udacity End & Data</a></h3>
                             </div>
-                            <h3><b>Kolby Sisk</b> in <b>Udacity End & Data</b></h3>
-                            <h2>React state management in 2022 - return of the redux</h2>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla culpa molestiae ad ea libero similique numquam nisi nobis officiis quibusdam quidem reprehenderit, id, quia fugit doloremque, corrupti odio repellendus recusandae.</p>
-                            <div class="when">
-                                <span>Dec 3</span> • <span> 4 min read </span>• <button>React</button> • <span>Popular on Medium</span>
-                            </div>
-                            <div style="display: flex; justify-content: flex-end;">
-                                <button class="articleIcon"><i class="fa-regular fa-bookmark"></i></button>
-                                <button class="articleIcon"><i class="fa-solid fa-ellipsis"></i></button>
-                            </div>
+                            <a href="#"><h2>React state management in 2022 - return of the redux</h2></a>
+                            <p>At the beginning of the year if you told me I'd be publishing a recommendation to use Redux I would have laughed in your face. Yet her...</p>
+                           <div class="whenDiv">
+                                <div class="when">
+                                    <span>Dec 3</span> &nbsp; &bull;&nbsp; <span> 4 min read </span>&nbsp;  &bull; &nbsp;<button class="whenButton">React</button> 	&nbsp;&bull; &nbsp;<span>Popular on Medium</span> 
+                                </div>
+                                <div class="whenIcons">
+                                    <button class="articleIcon"><i class="fa-regular fa-bookmark"></i></button>
+                                    <button class="articleIcon"><i class="fa-solid fa-ellipsis"></i></button>
+                                </div>
+                           </div>
                         </div>
                         <div class="articleCard">
                             <img src="/assets/berserk.jpg" class="articleImg" alt="articleImg" width="2560px" height="1080px">
-                        </div>
+                        </div> 
                     </div>
 
                     <div class="article">
-                        <div class="infos">
-                            <div class="profilePicDiv">
-                                <img class="profilePic" src="/assets/yoruichi.jpg" alt="profilePicture" width="736px" height="1308">
+                        <div class="infos">  
+                            <div class="infoAuthor">
+                                <div class="profilePicDiv">
+                                    <button class="profilePicBtn"><img class="profilePic" src="/assets/yoruichi.jpg" alt="profilePicture" width="736px" height="1308"></button>
+                                </div>
+                                <h3><a href="#">Navoda Nilakshi</a></h3>
                             </div>
-                            <h3><b>Kolby Sisk</b> in <b>Udacity End & Data</b></h3>
-                            <h2>React state management in 2022 - return of the redux</h2>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla culpa molestiae ad ea libero similique numquam nisi nobis officiis quibusdam quidem reprehenderit, id, quia fugit doloremque, corrupti odio repellendus recusandae.</p>
-                            <div class="when"><span>Dec 3</span> • <span> 4 min read </span>• <button>React</button> • <span>Popular on Medium</span></div>
-                            <div style="display: flex; justify-content: flex-end;">
-                                <button class="articleIcon"><i class="fa-regular fa-bookmark"></i></button>
-                                <button class="articleIcon"><i class="fa-solid fa-ellipsis"></i></button>
-                            </div>
+                            <a href="#"><h2>How To Sanitize Your Express App Against MongoDB Injection & Cross-Site Scripting.</h2></a>
+                            <p>Easiest way to sanitize your express app.</p>
+                           <div class="whenDiv">
+                                <div class="when">
+                                    <span>Dec 19&nbsp;</span>  &bull;&nbsp; <span> 6 min read &nbsp;</span>  &bull; &nbsp;<button class="whenButton">Web Development</button>&nbsp; 	&bull; &nbsp;<span>Based on your reading history</span> 
+                                </div>
+                                <div class="whenIcons">
+                                    <button class="articleIcon"><i class="fa-regular fa-bookmark"></i></button>
+                                    <button class="articleIcon"><i class="fa-solid fa-ellipsis"></i></button>
+                                </div>
+                           </div>
                         </div>
                         <div class="articleCard">
                             <img src="/assets/berserk.jpg" class="articleImg" alt="articleImg" width="2560px" height="1080px">
-                        </div>
+                        </div> 
                     </div>
 
                     <div class="article">
-                        <div class="infos">
-                            <div class="profilePicDiv">
-                                <img class="profilePic" src="/assets/yoruichi.jpg" alt="profilePicture" width="736px" height="1308">
+                        <div class="infos">  
+                            <div class="infoAuthor">
+                                <div class="profilePicDiv">
+                                    <button class="profilePicBtn"><img class="profilePic" src="/assets/yoruichi.jpg" alt="profilePicture" width="736px" height="1308"></button>
+                                </div>
+                                <h3><a href="#">Divyesh Bhalani</a> in <a href="#">DhiWise</a></h3>
                             </div>
-                            <h3><b>Kolby Sisk</b> in <b>Udacity End & Data</b></h3>
-                            <h2>React state management in 2022 - return of the redux</h2>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla culpa molestiae ad ea libero similique numquam nisi nobis officiis quibusdam quidem reprehenderit, id, quia fugit doloremque, corrupti odio repellendus recusandae.</p>
-                            <div class="when"><span>Dec 3</span> • <span> 4 min read </span>• <button>React</button> • <span>Popular on Medium</span></div>
-                            <div style="display: flex; justify-content: flex-end;">
-                                <button class="articleIcon"><i class="fa-regular fa-bookmark"></i></button>
-                                <button class="articleIcon"><i class="fa-solid fa-ellipsis"></i></button>
-                            </div>
+                            <a href="#"><h2>React 18 new features and updates</h2></a>
+                            <p>Know aboit some cool features and updated of React 18.</p>
+                           <div class="whenDiv">
+                                <div class="when">
+                                    <span>Nov 24&nbsp;</span>  &bull;&nbsp; <span> 4 min read &nbsp;</span>  &bull; &nbsp;<button class="whenButton">Reactjs</button>&nbsp; 	&bull;&nbsp; <span>Popular on Medium</span> 
+                                </div>
+                                <div class="whenIcons">
+                                    <button class="articleIcon"><i class="fa-regular fa-bookmark"></i></button>
+                                    <button class="articleIcon"><i class="fa-solid fa-ellipsis"></i></button>
+                                </div>
+                           </div>
                         </div>
                         <div class="articleCard">
                             <img src="/assets/berserk.jpg" class="articleImg" alt="articleImg" width="2560px" height="1080px">
-                        </div>
+                        </div> 
                     </div>
 
                     <div class="article">
-                        <div class="infos">
-                            <div class="profilePicDiv">
-                                <img class="profilePic" src="/assets/yoruichi.jpg" alt="profilePicture" width="736px" height="1308">
+                        <div class="infos">  
+                            <div class="infoAuthor">
+                                <div class="profilePicDiv">
+                                    <button class="profilePicBtn"><img class="profilePic" src="/assets/yoruichi.jpg" alt="profilePicture" width="736px" height="1308"></button>
+                                </div>
+                                <h3><a href="#">Vsevold Ulyanovich</a> in <a href="#">Fively Blog</a></h3>
                             </div>
-                            <h3><b>Kolby Sisk</b> in <b>Udacity End & Data</b></h3>
-                            <h2>React state management in 2022 - return of the redux</h2>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla culpa molestiae ad ea libero similique numquam nisi nobis officiis quibusdam quidem reprehenderit, id, quia fugit doloremque, corrupti odio repellendus recusandae.</p>
-                            <div class="when"><span>Dec 3</span> • <span> 4 min read </span>• <button>React</button> • <span>Popular on Medium</span></div>
-                            <div style="display: flex; justify-content: flex-end;">
-                                <button class="articleIcon"><i class="fa-regular fa-bookmark"></i></button>
-                                <button class="articleIcon"><i class="fa-solid fa-ellipsis"></i></button>
-                            </div>
+                            <a href="#"><h2>15 Best Web App ideas for Startup in 2021</h2></a>
+                            <p>15 startup ideas and technologies that could make you a millionaire</p>
+                           <div class="whenDiv">
+                                <div class="when">
+                                    <span>Oct 29&nbsp;</span>  &bull;&nbsp; <span> 6 min read &nbsp;</span>  &bull; &nbsp;<button class="whenButton">Web Development</button>&nbsp; 	&bull;&nbsp; <span>Popular on Medium</span> 
+                                </div>
+                                <div class="whenIcons">
+                                    <button class="articleIcon"><i class="fa-regular fa-bookmark"></i></button>
+                                    <button class="articleIcon"><i class="fa-solid fa-ellipsis"></i></button>
+                                </div>
+                           </div>
                         </div>
                         <div class="articleCard">
                             <img src="/assets/berserk.jpg" class="articleImg" alt="articleImg" width="2560px" height="1080px">
+                        </div> 
+                    </div>
+
+                    <div class="article">
+                        <div class="infos">  
+                            <div class="infoAuthor">
+                                <div class="profilePicDiv">
+                                    <button class="profilePicBtn"><img class="profilePic" src="/assets/yoruichi.jpg" alt="profilePicture" width="736px" height="1308"></button>
+                                </div>
+                                <h3><a href="#">Kolby Sisk</a> in <a href="#">Udacity End & Data</a></h3>
+                            </div>
+                            <a href="#"><h2>Understanding re-rendering and memoization in React</h2></a>
+                            <p>The following are quick tips to icrease performance in your React applocation by understanding re-rendering and memoization. To better...</p>
+                           <div class="whenDiv">
+                                <div class="when">
+                                    <span>Dec 6&nbsp;</span>  &bull;&nbsp; <span> 4 min read &nbsp;</span>  &bull; &nbsp;<button class="whenButton">React</button>&nbsp; 	&bull; &nbsp;<span>Popular on Medium</span> 
+                                </div>
+                                <div class="whenIcons">
+                                    <button class="articleIcon"><i class="fa-regular fa-bookmark"></i></button>
+                                    <button class="articleIcon"><i class="fa-solid fa-ellipsis"></i></button>
+                                </div>
+                           </div>
                         </div>
+                        <div class="articleCard">
+                            <img src="/assets/berserk.jpg" class="articleImg" alt="articleImg" width="2560px" height="1080px">
+                        </div> 
+                    </div>
+
+                    <div class="article">
+                        <div class="infos">  
+                            <div class="infoAuthor">
+                                <div class="profilePicDiv">
+                                    <button class="profilePicBtn"><img class="profilePic" src="/assets/yoruichi.jpg" alt="profilePicture" width="736px" height="1308"></button>
+                                </div>
+                                <h3><a href="#">Arun Kashyap</a> in <a href="#">Nerd For Tech</a></h3>
+                            </div>
+                            <a href="#"><h2>Why get rid of promises to fetch data in React?</h2></a>
+                            <p>How you can make your codfe well structured!!</p>
+                           <div class="whenDiv">
+                                <div class="when">
+                                    <span>Jul 5&nbsp;</span>  &bull;&nbsp; <span> 5 min read &nbsp;</span>  &bull; &nbsp;<button class="whenButton">React</button>&nbsp; 	&bull; &nbsp;<span>Selected for you</span> 
+                                </div>
+                                <div class="whenIcons">
+                                    <button class="articleIcon"><i class="fa-regular fa-bookmark"></i></button>
+                                    <button class="articleIcon"><i class="fa-solid fa-ellipsis"></i></button>
+                                </div>
+                           </div>
+                        </div>
+                        <div class="articleCard">
+                            <img src="/assets/berserk.jpg" class="articleImg" alt="articleImg" width="2560px" height="1080px">
+                        </div> 
                     </div>
 
 
@@ -124,35 +197,33 @@
                         <i class="fa-solid fa-plus" style="color: black;"></i>
                         <i class="fa-brands fa-twitter"></i>
                     </div>
-                    <p style="font-size: 20px; text-align: center;">Discover medium writers you already follow on twitter</p>
+                    <p style="font-size: 18px; text-align: center;">Discover medium writers you already follow on twitter</p>
                     <button><i class="fa-brands fa-twitter"></i>Connect to Twitter</button>
-                    <p style="font-size: 20px; text-align: center; margin-top: 1em; text-decoration: underline;">Maybe later</p>
-                    <hr style="color: lightgray; margin-top: 1em;">
+                    <a href="#" style="font-size: 15px; text-align: center;text-decoration: underline;color: grey;">Maybe later</a>
+                    <hr>
                 </div>
 
                 <div class="recommended">
-                    <h2 style="font-size: 20px;">Recommended Topics</h2>
-                    <button class="recommendedBtn">tag1</button>
-                    <button class="recommendedBtn">tag1</button>
-                    <button class="recommendedBtn">tag1</button>
-                    <button class="recommendedBtn">tag1</button>
-                    <button class="recommendedBtn">tag22</button>
-                    <button class="recommendedBtn">tag333</button>
-                    <button class="recommendedBtn">tag4</button>
-                    <button class="recommendedBtn">tag555</button>
-                    <button class="recommendedBtn">tag66</button>
+                    <h2>Recommended Topics</h2>
+                    <button class="recommendedBtn">Technology</button>
+                    <button class="recommendedBtn">Money</button>
+                    <button class="recommendedBtn">Business</button>
+                    <button class="recommendedBtn">Productivity</button>
+                    <button class="recommendedBtn">Psicology</button>
+                    <button class="recommendedBtn">Mindfulness</button>
+                    <button class="recommendedBtn">Art</button>
                 </div>
 
                 <section id="whoToFollow">
-                    <h2 style="font-size: 20px; margin-bottom: 0.5em;">Who to Follow</h2>
+                    <h2>Who to Follow</h2>
 
                     <div class="profile">
                         <div class="profilePicDiv">
                             <img class="profilePic" src="/assets/usopp.png" width="1270" height="1870">
                         </div>
                         <div class="person">
-                            <h3>Lessig</h3>
-                            <h4>Law professor, Activist</h4>
+                            <a><h3>Lessig</h3></a>
+                            <h4>law professor, activist</h4>
                         </div>
                         <button class="followBtn">Follow</button>
                     </div>
@@ -162,8 +233,8 @@
                             <img class="profilePic" src="/assets/usopp.png" width="1270" height="1870">
                         </div>
                         <div class="person">
-                            <h3>Lessig</h3>
-                            <h4>Law professor, Activist</h4>
+                            <a><h3>David Windberg</h3></a>
+                            <h4>Author, The straight Dope, or what I learned from my first...</h4>
                         </div>
                         <button class="followBtn">Follow</button>
                     </div>
@@ -173,8 +244,8 @@
                             <img class="profilePic" src="/assets/usopp.png" width="1270" height="1870">
                         </div>
                         <div class="person">
-                            <h3>Lessig</h3>
-                            <h4>Law professor, Activist</h4>
+                            <a><h3>Bonsu Thompson</h3></a>
+                            <h4>Bonsu Thompson is a writer, producer, Brooklynite and 2019...</h4>
                         </div>
                         <button class="followBtn">Follow</button>
                     </div>
@@ -186,26 +257,26 @@
                         <div class="profilePicDiv">
                             <img class="profilePic" src="/assets/yoruichi.jpg" alt="profilePicture" width="736px" height="1308">
                         </div>
-                        <h3><b>Kolby Sisk</b> in <b>Udacity End & Data</b></h3>
-                        <h2>React state management in 2022 - return of the redux</h2>
+                        <h3><a href="#">Eva Keiffenheim</a> in <a href="#">Age of awareness</a></h3>
+                        <a href="#"><h2>The Feynman Technique will make you remember what you read</h2></a>
                         <div class="when">
-                            <span>Oct 27, 2020 </span> <span>•</span> <span> 4 min read </span> <span>★</span>
+                            <span>Oct 2, 2020 </span> <span>&bull;</span> <span> 6 min read </span> <span>&#9733;</span>
                         </div>
                     </div>
+                    
                     <div class="article">
                         <div class="profilePicDiv">
                             <img class="profilePic" src="/assets/yoruichi.jpg" alt="profilePicture" width="736px" height="1308">
                         </div>
-                        <h3><b>Kolby Sisk</b> in <b>Udacity End & Data</b></h3>
-                        <h2>React state management in 2022 - return of the redux</h2>
+                        <h3><a href="#">Eva Keiffenheim</a> in <a href="#">Age of awareness</a></h3>
+                        <a href="#"><h2>The Feynman Technique will make you remember what you read</h2></a>
                         <div class="when">
-                            <span>Oct 27, 2020 </span> <span>•</span> <span> 4 min read </span> <span>★</span>
+                            <span>Oct 2, 2020 </span> <span>&bull;</span> <span> 6 min read </span> <span>&#9733;</span>
                         </div>
                     </div>
-
-                    <a href="#">See all (3)</a>
                 </section>
 
+                <a href="#" style="color: green; font-size: 13px;">See all(3)</a>
                 <footer>
                     <span>Help</span><span>Status</span><span>Writers</span>
                     <span>Blog</span><span>Carreers</span><span>Privacy</span><span>Terms</span><span>About</span>
